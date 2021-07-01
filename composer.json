@@ -21,8 +21,7 @@
         }
     },
     "extra": {
-        "module_name": "jorique.smsaero_connector",
-        "install_dir": "local/modules"
+        "module_name": "jorique.smsaero_connector"
     },
     "require": {
         "jorique/bitrix-installer": "^0.1.1"
