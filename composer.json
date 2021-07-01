@@ -1,0 +1,30 @@
+{
+    "name": "jorique/bitrix-smsaero-connector",
+    "description": "Коннектор для шлюза SMSAero для модуля сервис сообщений",
+    "keywords": ["bitrix", "Битрикс", "d7", "модуль", "SMS", "SMSAero"],
+    "type": "bitrix-module",
+    "license": "MIT",
+    "support": {
+        "www": "https://www.100up.ru",
+        "skype": "alexander_jorique",
+        "source": "https://github.com/Jorique/bitrix-smsaero-connector"
+    },
+    "authors": [
+        {
+            "name": "Alexander Zhuravlev",
+            "email": "alex@100up.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jorique\\BitrixSmsAeroConnector\\": "src/"
+        }
+    },
+    "extra": {
+        "module_name": "jorique.smsaero_connector",
+        "install_dir": "local/modules"
+    },
+    "require": {
+        "jorique/bitrix-installer": "^0.1.1"
+    }
+}
